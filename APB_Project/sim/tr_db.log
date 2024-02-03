@@ -1,0 +1,1 @@
+  CREATE_STREAM @0 {NAME:wdata T:Transactions SCOPE:uvm_test_top.env.a.seqr STREAM:648}

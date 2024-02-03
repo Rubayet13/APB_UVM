@@ -1,0 +1,142 @@
+#-----------------------------------------------------------
+# xsim v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Feb  1 17:07:16 2024
+# Process ID: 26956
+# Current directory: /home/rubayet/Desktop/APB_Project/sim
+# Command line: xsim -mode tcl -source {xsim.dir/top/xsim_script.tcl}
+# Log file: /home/rubayet/Desktop/APB_Project/sim/xsim.log
+# Journal file: /home/rubayet/Desktop/APB_Project/sim/xsim.jou
+# Running On: asus, OS: Linux, CPU Frequency: 3100.281 MHz, CPU Physical cores: 2, Host memory: 8061 MB
+#-----------------------------------------------------------
+source xsim.dir/top/xsim_script.tcl
+# xsim {top} -testplusarg UVM_TESTNAME=test -testplusarg UVM_VERBOSITY=UVM_MEDIUM -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+UVM_INFO /tools/Xilinx/Vivado/2023.2/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO /tools/Xilinx/Vivado/2023.2/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test test...
+UVM_INFO /tools/Xilinx/Vivado/2023.2/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(30) @ 0: uvm_test_top.env.a.d [DRV] System Reset : Start of Simulation
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(30) @ 10000: uvm_test_top.env.a.d [DRV] System Reset : Start of Simulation
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(27) @ 10000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(24) @ 10000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(27) @ 30000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(24) @ 30000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(30) @ 30000: uvm_test_top.env.a.d [DRV] System Reset : Start of Simulation
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(30) @ 50000: uvm_test_top.env.a.d [DRV] System Reset : Start of Simulation
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(27) @ 50000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(24) @ 50000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(27) @ 70000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(24) @ 70000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(30) @ 70000: uvm_test_top.env.a.d [DRV] System Reset : Start of Simulation
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(27) @ 90000: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(24) @ 90000: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(62) @ 110000: uvm_test_top.env.a.d [DRV] mode:writed, addr:12, wdata:390898802, rdata:x, slverr:x
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(37) @ 150000: uvm_test_top.env.a.m [MON] DATA WRITE addr:12 data:390898802 slverr:z
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(35) @ 150000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:12, wdata:390898802 arr_wr:390898802
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(62) @ 170000: uvm_test_top.env.a.d [DRV] mode:writed, addr:20, wdata:885323718, rdata:x, slverr:x
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(37) @ 210000: uvm_test_top.env.a.m [MON] DATA WRITE addr:20 data:885323718 slverr:z
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(35) @ 210000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:20, wdata:885323718 arr_wr:885323718
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(62) @ 230000: uvm_test_top.env.a.d [DRV] mode:writed, addr:23, wdata:4021657222, rdata:x, slverr:x
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(37) @ 330000: uvm_test_top.env.a.m [MON] DATA WRITE addr:23 data:4021657222 slverr:z
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(35) @ 330000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:23, wdata:4021657222 arr_wr:4021657222
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(62) @ 350000: uvm_test_top.env.a.d [DRV] mode:writed, addr:17, wdata:2283706505, rdata:x, slverr:x
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(37) @ 410000: uvm_test_top.env.a.m [MON] DATA WRITE addr:17 data:2283706505 slverr:z
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(35) @ 410000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:17, wdata:2283706505 arr_wr:2283706505
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(62) @ 430000: uvm_test_top.env.a.d [DRV] mode:writed, addr:23, wdata:1040180699, rdata:x, slverr:x
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(37) @ 530000: uvm_test_top.env.a.m [MON] DATA WRITE addr:23 data:1040180699 slverr:z
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(35) @ 530000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:23, wdata:1040180699 arr_wr:1040180699
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(62) @ 550000: uvm_test_top.env.a.d [DRV] mode:writed, addr:16, wdata:3512305284, rdata:x, slverr:x
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(37) @ 590000: uvm_test_top.env.a.m [MON] DATA WRITE addr:16 data:3512305284 slverr:z
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(35) @ 590000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:16, wdata:3512305284 arr_wr:3512305284
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(62) @ 610000: uvm_test_top.env.a.d [DRV] mode:writed, addr:24, wdata:3257629301, rdata:x, slverr:x
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(37) @ 650000: uvm_test_top.env.a.m [MON] DATA WRITE addr:24 data:3257629301 slverr:z
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(35) @ 650000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:24, wdata:3257629301 arr_wr:3257629301
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(62) @ 670000: uvm_test_top.env.a.d [DRV] mode:writed, addr:23, wdata:3497378266, rdata:x, slverr:x
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(37) @ 770000: uvm_test_top.env.a.m [MON] DATA WRITE addr:23 data:3497378266 slverr:z
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(35) @ 770000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:23, wdata:3497378266 arr_wr:3497378266
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(62) @ 790000: uvm_test_top.env.a.d [DRV] mode:writed, addr:20, wdata:4231552105, rdata:x, slverr:x
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(37) @ 830000: uvm_test_top.env.a.m [MON] DATA WRITE addr:20 data:4231552105 slverr:z
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(35) @ 830000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:20, wdata:4231552105 arr_wr:4231552105
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(62) @ 850000: uvm_test_top.env.a.d [DRV] mode:writed, addr:13, wdata:3312667259, rdata:x, slverr:x
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(37) @ 910000: uvm_test_top.env.a.m [MON] DATA WRITE addr:13 data:3312667259 slverr:z
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(35) @ 910000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:13, wdata:3312667259 arr_wr:3312667259
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(62) @ 930000: uvm_test_top.env.a.d [DRV] mode:writed, addr:24, wdata:3961949156, rdata:x, slverr:x
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(37) @ 970000: uvm_test_top.env.a.m [MON] DATA WRITE addr:24 data:3961949156 slverr:z
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(35) @ 970000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:24, wdata:3961949156 arr_wr:3961949156
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(62) @ 990000: uvm_test_top.env.a.d [DRV] mode:writed, addr:31, wdata:4031914087, rdata:x, slverr:x
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(37) @ 1090000: uvm_test_top.env.a.m [MON] DATA WRITE addr:31 data:4031914087 slverr:z
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(35) @ 1090000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:31, wdata:4031914087 arr_wr:4031914087
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(62) @ 1110000: uvm_test_top.env.a.d [DRV] mode:writed, addr:0, wdata:3522562207, rdata:x, slverr:x
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(37) @ 1150000: uvm_test_top.env.a.m [MON] DATA WRITE addr:0 data:3522562207 slverr:z
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(35) @ 1150000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:0, wdata:3522562207 arr_wr:3522562207
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(62) @ 1170000: uvm_test_top.env.a.d [DRV] mode:writed, addr:8, wdata:3507635172, rdata:x, slverr:x
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(37) @ 1210000: uvm_test_top.env.a.m [MON] DATA WRITE addr:8 data:3507635172 slverr:z
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(35) @ 1210000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:8, wdata:3507635172 arr_wr:3507635172
+----------------------------------------------------------------
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_driver.sv(62) @ 1230000: uvm_test_top.env.a.d [DRV] mode:writed, addr:24, wdata:765907583, rdata:x, slverr:x
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/agent/apb_monitor.sv(37) @ 1270000: uvm_test_top.env.a.m [MON] DATA WRITE addr:24 data:765907583 slverr:z
+UVM_INFO /home/rubayet/Desktop/APB_Project/tb/environment/apb_sco.sv(35) @ 1270000: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:24, wdata:765907583 arr_wr:765907583
+----------------------------------------------------------------
+UVM_INFO /tools/Xilinx/Vivado/2023.2/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 1290000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /tools/Xilinx/Vivado/2023.2/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 1290000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   65
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[DRV]    20
+[MON]    20
+[NO_DPI_TSTNAME]     1
+[RNTST]     1
+[SCO]    20
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+$finish called at time : 1290 ns : File "/tools/Xilinx/Vivado/2023.2/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+exit
+INFO: [Common 17-206] Exiting xsim at Thu Feb  1 17:07:20 2024...

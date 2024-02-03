@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rubayet/Desktop/APB_Project/tb/tb_top/params.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rubayet/Desktop/APB_Project/rtl/slave_rtl.sv" into library work
+INFO: [VRFC 10-311] analyzing module slave_rtl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rubayet/Desktop/APB_Project/rtl/apb_rtl.sv" into library work
+INFO: [VRFC 10-311] analyzing module apb_rtl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rubayet/Desktop/APB_Project/tb/tb_top/apb_interface.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rubayet/Desktop/APB_Project/tb/agent/agent_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rubayet/Desktop/APB_Project/tb/environment/env_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rubayet/Desktop/APB_Project/tb/sequence/seq_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rubayet/Desktop/APB_Project/tb/test/test.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rubayet/Desktop/APB_Project/tb/tb_top/apb_tb_top.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb

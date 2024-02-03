@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# xsim v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Feb  1 17:07:16 2024
+# Process ID: 26956
+# Current directory: /home/rubayet/Desktop/APB_Project/sim
+# Command line: xsim -mode tcl -source {xsim.dir/top/xsim_script.tcl}
+# Log file: /home/rubayet/Desktop/APB_Project/sim/xsim.log
+# Journal file: /home/rubayet/Desktop/APB_Project/sim/xsim.jou
+# Running On: asus, OS: Linux, CPU Frequency: 3100.281 MHz, CPU Physical cores: 2, Host memory: 8061 MB
+#-----------------------------------------------------------
+source xsim.dir/top/xsim_script.tcl
+run -all
